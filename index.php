@@ -17,14 +17,34 @@
             background-color: #e9e9e973;
             width: 336px;
             border-radius: 5px;
-            height: 380px;
+            height: 340px;
             margin: 0px auto;
             margin-top: 40px;
         }
         .container-form img{
-            width: 200px;
+            width: 180px;
             margin: 0px auto;
             display: block;
+        }
+        form input{
+            width: 250px;
+            display: block;
+            margin:0px auto;
+            height: 40px;
+            margin-top: 5px;
+            border: 1px solid #e3e3e3;
+        }
+        form small{
+            margin: 0px auto;
+            display: block;
+            text-align: center;
+        }
+         button{
+            width: 100px;
+            margin: 0px auto;
+            display: block!important;
+            text-align: center;
+            background-color: #2371b8!important;
         }
     </style>
 
@@ -34,6 +54,15 @@
 
         <div class="container-form">
             <img src="img/php8.png" alt="">
+            <form action="" method="post">
+
+                <small for="">E-mail</small>
+                <input type="email" name="" id="">
+
+                <small style="margin-top: 20px;" for="">Password</small>
+                <input type="password" name="" id="">
+                <button style="margin-top: 20px;" class="btn btn-primary" type="submit" value="Entrar">Entrar</button>
+            </form>
         </div>
 
     </div>
