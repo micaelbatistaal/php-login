@@ -1,3 +1,6 @@
+/*
+Desenvolvido por Micael Batista
+*/
 .container-form{
     background-color: #e9e9e973;
     width: 336px;
@@ -20,9 +23,10 @@ form input{
     border: 1px solid #e3e3e3;
 }
 form small{
-    margin: 0px auto;
+    margin: 10px 0 0 47px;
     display: block;
-    text-align: center;
+    font-size: 12px;
+    color: #545b62;
 }
  button{
     width: 100px;
