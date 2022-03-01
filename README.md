@@ -1,5 +1,4 @@
-# php-login
-Página HTML5 + CSS3
+# Sistema de Login em PHP - Simples
 PHP formulário de Login.
 
 
