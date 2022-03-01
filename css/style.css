@@ -41,3 +41,5 @@ small{
 button{
     margin-top: 20px;
 }
+
+.alert-success{width: 336px!important; margin: 0px auto; margin-top: 100px;}
